@@ -28,7 +28,7 @@ on:
       REPO_URL:
         description: 'Source repository'
         required: true
-        default: 'https://github.com/Tony91590/builde1233333'
+        default: 'https://github.com/Tony91590/Fip'
         type: string
 
       REPO_BRANCH:
