@@ -680,7 +680,7 @@ jobs:
             echo "Model: $model_name"
             echo "Multi layout: $MULTI_LAYOUT"
             echo "Fixed MTD parts: $FIXED_MTDPARTS"
-            echo "Overclock: ${{ github.event.inputs.OVERCLOCK }}"
+            echo "ubootmod: ${{ github.event.inputs.UBOOTMOD }}"
             echo "========================================"
 
             BOARD="$model_name" \
